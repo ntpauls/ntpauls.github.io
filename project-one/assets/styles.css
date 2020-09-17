@@ -1,0 +1,129 @@
+/* This is our main stylesheet for Project 1 */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color:#E8E8E8;
+  color:#707070;
+  font-size: 32px;
+
+}
+#container {
+  margin:0;
+  padding:0;
+  width: 1024px;
+  height: 769px;
+}
+#letter-analysis{
+  position: absolute;
+    left: 556px;
+    top: 33px;
+}
+
+p {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 27px;
+  }
+
+h1 {
+  font-weight:400;
+  font-style:normal;
+  font-size:786px;
+  color:#707070;
+  padding: 0;
+  margin-top: -143px;
+  margin-bottom: -137px;
+  width: 500px;
+  }
+
+h2,
+h3 {
+    color:#6A8365;
+}
+
+h2 {
+    font-weight:700;
+    font-style: normal;
+    font-size:202px;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 1080px;
+}
+
+h3 {
+    font-weight:400;
+    font-style: normal;
+    font-size:27px;
+    margin-bottom: -23px;
+    margin-top: -4px;
+
+  }
+  h4{
+    font-weight:400;
+    font-style: normal;
+    font-size:17px;
+    margin-bottom: 28px;
+    margin-top: 18px;
+  }
+  button{
+    height: 50px;
+    width: 75px;
+
+  }
+
+.rotate {
+
+margin-right: -547px;
+
+  transform: rotate(-90deg);
+
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+#fancy-title{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  background: #6A8365;
+  color: #fff;
+  padding: 0px;
+}
+.group-letter {
+  position:absolute;
+}
+
+.letter-container {
+  display:flex;
+  justify-content: flex-start;
+  height: 100%;
+
+}
+
+.text-box {
+  /*display:flex;*/
+  justify-content:right;
+  height: 100%
+}
+
+.character-highlights {
+  border: 2px solid gray;
+  background-color: lightgray;
+  border-radius: 25px;
+}
