@@ -118,6 +118,7 @@ h3 {
     position: relative;
     top: 252px;
     right: 85px;
+    z-index: 9999;
 
   }
 
@@ -170,3 +171,12 @@ h3 {
   /*display:flex;*/
   justify-content:right;
   height: 100%
+}
+
+#letter-analysis {
+  opacity: 0;
+}
+
+#letter-analysis.visible {
+  opacity: 1;
+}
