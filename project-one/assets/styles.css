@@ -6,12 +6,13 @@ body {
   width: 1500px;
   height: 769px;
 
+
 }
 .container-1 {
   display:flex;
   margin:0;
   padding:0;
-  width: 1024px;
+  width: 1200px;
   height: 769px;
 }
 
@@ -25,6 +26,11 @@ body {
 
 .name-list{
   display: flex;
+}
+
+.name-list img{
+  height: 100px;
+  width: 100px;
 }
 
 .character-highlights {
