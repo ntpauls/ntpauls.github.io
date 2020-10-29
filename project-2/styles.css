@@ -1,14 +1,56 @@
+section{
+  height: 100vh;
+  width:100vw;
+}
+
+section.one{
+  color: #000;
+}
+
+nav{
+  display: flex;
+  justify-content: left;
+  font-family: 'Barriecito', cursive;
+  width: 100vw
+}
+
+nav a{
+  background-color: #C7383B;
+  color:#F2DBCA;
+  padding: 0,20;
+  text-decoration: none;
+  display:block;
+  text-transform: uppercase;
+  width:10%;
+  text-align: center;
+  width:200px
+}
+
+#ratlings.active
+#ian.active
+#harrison.active
+#paul.active
+#evan.active {
+  color: #F2DBCA;
+}
+
 body{
   font-family: 'Helvetica';
   font-size: 25px;
+  margin:0;
+  padding:0;
+  background-color: #F2DBCA
 }
 
 p{
   padding-left: 20px;
+  color: #442220
 }
 
 h1{
-  font-family: 'Castle of Stones';
+  font-family: 'Barriecito', cursive;
+  text-transform: uppercase;
+  color: #442220;
   font-size: 125px;
   margin-top: -0px;
 }
@@ -18,45 +60,19 @@ h1{
   margin-top: 25px;
 }
 
+#icon{
+  margin-left: 30px;
+  width: 125px;
+  height: 125px;
+}
+
 .avatar{
   display: flex;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
-  color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+img{
+  position: relative;
+  z-index: -1;
+  transform: rotate(-5deg);
+  border: 2px solid #C7383B;
 }
