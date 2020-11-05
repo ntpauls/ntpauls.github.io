@@ -11,27 +11,33 @@ nav{
   display: flex;
   justify-content: left;
   font-family: 'Barriecito', cursive;
-  width: 100vw
+  width:80vw;
+
 }
 
-nav a{
+.full-width-nav{
   background-color: #C7383B;
+  width: 100vw;
+
+}
+
+
+nav a{
   color:#F2DBCA;
-  padding: 0,20;
+  padding: 0 20px;
   text-decoration: none;
   display:block;
   text-transform: uppercase;
-  width:10%;
   text-align: center;
-  width:200px
 }
 
-#ratlings.active
-#ian.active
-#harrison.active
-#paul.active
+#ratlings.active,
+#ian.active,
+#harrison.active,
+#paul.active,
 #evan.active {
-  color: #F2DBCA;
+  background-color: #F2DBCA;
+  color: #C7383B
 }
 
 body{
@@ -50,9 +56,11 @@ p{
 h1{
   font-family: 'Barriecito', cursive;
   text-transform: uppercase;
-  color: #442220;
-  font-size: 125px;
-  margin-top: -0px;
+  color: black;
+  font-size: 175px;
+  margin-top: -125px;
+  margin-bottom: 50px;
+
 }
 
 .picture{
@@ -60,6 +68,19 @@ h1{
   margin-top: 25px;
 }
 
+#evanpic2{
+  margin-top: -225px;
+}
+#ianpic2{
+  margin-left: 711px;
+  margin-top: -130px;
+}
+#paulpic2{
+  margin-top: -340px;
+}
+#harrisonpic2{
+margin-top: -275px;
+}
 #icon{
   margin-left: 30px;
   width: 125px;
@@ -68,6 +89,7 @@ h1{
 
 .avatar{
   display: flex;
+  margin-bottom: -100px;
 }
 
 img{
