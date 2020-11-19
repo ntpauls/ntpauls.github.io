@@ -11,7 +11,7 @@ body{
 
 header {
   background-color: #6E9075;
-  color:#ffffff;
+  color:#000;
   text-align:center;
 }
 
@@ -51,6 +51,11 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+}
+
+.row img{
+  align-self: flex-start;
 }
 
 /* Desktop Styles */
@@ -72,14 +77,18 @@ p{
   justify-content: space-between;
 }
 
-footer{
+header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-footer img{
+header img{
   width: 10%
+}
+
+.column1{
+  display: flex;
 }
 
 .row img,

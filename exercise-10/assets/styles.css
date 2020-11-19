@@ -1,0 +1,94 @@
+/* External Stylesheet for Exercise 10: Responsive Resume Design */
+
+/* REMINDER — CODE MOBILE FIRST! The code needed to display your design on a tablet or desktop should be handled using MEDIA QUERIES */
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+header body{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color:#fff
+}
+
+body{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color:black;
+}
+
+h2{
+  font-variant: small-caps;
+}
+
+h4{
+  color: black;
+  font-weight: bold;
+}
+
+header{
+text-align: center;
+background: #93AA84;
+height: 379px;
+display: flex;
+flex-direction: column;
+}
+
+header img{
+  width: 130px;
+  margin:0 auto;
+}
+
+header h1{
+  margin-top: .5em;
+  font-size: 2em;
+  }
+header h2{
+  margin-top: .5em;
+  font-size: 1.5em;
+}
+
+ header h6{
+  font-size: .75em;
+  margin-top: 1.333em;
+}
+
+header a{
+  font-weight: 400;
+  color: #fff;
+}
+
+section h2{
+  color: #000000
+}
+ section p{
+   color: #000000
+ }
+
+section
+
+p {
+  font-style: italic;
+}
+
+
+
+
+/* ********** MEDIA QUERIES ********************* */
+
+/* Tablet Design */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+
+}
+
+
+/* Desktop Design */
+@media screen and (min-width:1025px) {
+
+
+.column1{
+  display: flex;
+}
