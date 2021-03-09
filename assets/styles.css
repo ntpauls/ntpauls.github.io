@@ -1,0 +1,183 @@
+/* External Stylesheet for Exercise 10: Responsive Resume Design */
+
+/* REMINDER — CODE MOBILE FIRST! The code needed to display your design on a tablet or desktop should be handled using MEDIA QUERIES */
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  text-align: center;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+h1{
+  font-size: 39px;
+  text-transform: uppercase;
+}
+h2{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+p {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:left;
+}
+
+a{
+
+}
+
+.allcaps{
+  text-transform: uppercase;
+}
+
+a:hover{
+  font-weight: bolder;
+  text-decoration: underline;
+  color: grey;
+}
+img{
+  width: 320px
+}
+
+.fleximages img{
+
+  width: 320px;
+}
+
+.fleximages2 img{
+  width: 235px;
+}
+
+ul{
+  text-align: left;
+}
+
+#headshot{
+  width: 320px;
+}
+
+#greetings{
+  text-align: left;
+}
+
+#menu a{
+  line-height: 1em;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+}
+
+.caption{
+  font-size: 14px
+}
+
+/* ********** MEDIA QUERIES ********************* */
+
+/* Tablet Design */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+body{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  text-align: center;
+  width: 640px;
+}
+
+p {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:left;
+}
+
+a{
+
+}
+
+.allcaps{
+  text-transform: uppercase;
+  display: inline;
+}
+img{
+  width: 640px
+}
+
+#menu a{
+  line-height: 1em;
+  text-decoration: none;
+  padding: 5px;
+  display: inline;
+}
+
+.fleximages img{
+
+  width: 210px;
+}
+
+.fleximages2 img{
+  width: 640px;
+}
+}
+
+
+/* Desktop Design */
+@media screen and (min-width:1025px) and (max-width:10000px){
+  body{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    text-align: center;
+    width: 740px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    width: 740px
+  }
+
+  a{
+
+  }
+
+  .allcaps{
+    text-transform: uppercase;
+    text-decoration-style: double;
+    display: inline;
+  }
+  img{
+    width: 640px
+  }
+
+  .fleximages img{
+
+    width: 243px;
+  }
+
+  .fleximages2 img{
+    width: 740px;
+  }
+
+  #menu a{
+    line-height: 1em;
+    text-decoration: none;
+    padding: 5px;
+    display: inline;
+
+  }
